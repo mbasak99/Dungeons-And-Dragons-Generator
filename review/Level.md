@@ -1,0 +1,3 @@
+| Method names             | Responsibility                                      | Instance vars used in method | Other class methods called in method | Objects used by method | Lines of code |
+|--------------------------|-----------------------------------------------------|------------------------------|--------------------------------------|------------------------|---------------|
+| public String getLvlDesc | Returns a string after rolling for passage section. | String lvlDesc               |                                      |                        | 1             |

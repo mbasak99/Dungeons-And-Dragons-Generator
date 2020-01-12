@@ -1,0 +1,4 @@
+| Method names                     | Responsibility                            | Instance vars used in method | Other class methods called in method       | Objects used by method | Lines of code |
+|----------------------------------|-------------------------------------------|------------------------------|--------------------------------------------|------------------------|---------------|
+| public static void main()        | Generates the main algorithm.             |                              | Chamber getDoors() Chamber getDoor()       | Chamber Door           | 114           |
+| public static void outputLevel() | Displays a formatted output for the user. |                              | Passage setDoor() Chamber getDescription() | Passage Chamber Door   | 40            |

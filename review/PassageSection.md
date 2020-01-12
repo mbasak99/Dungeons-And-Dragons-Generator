@@ -1,0 +1,7 @@
+| Method names                 | Responsibility                                                | Instance vars used in method | Other class methods called in method | Objects used by method | Lines of code |
+|------------------------------|---------------------------------------------------------------|------------------------------|--------------------------------------|------------------------|---------------|
+| public Door getDoor          | Retrieves a door object in the passage section.               | Door passageDoor             |                                      | Door                   | 1             |
+| public Monster getMonster    | Retrieves a monster object in the passage section.            | Monster monster              |                                      | Monster                | 1             |
+| public String getDescription | Retrieves the string description of the passage section.      | String desc                  |                                      |                        | 1             |
+| public void setMonster       | Sets a monster object and its description in passage section. | Monster monster String desc  | Monster getDescription()             | Monster                | 2             |
+| public void setDoor          | Sets a door object in passage section.                        | Door passageDoor             |                                      | Door                   | 1             |

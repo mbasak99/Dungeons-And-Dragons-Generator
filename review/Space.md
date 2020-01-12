@@ -1,0 +1,4 @@
+| Method names                          | Responsibility                         | Instance vars used in method | Other class methods called in method | Objects used by method | Lines of code |
+|---------------------------------------|----------------------------------------|------------------------------|--------------------------------------|------------------------|---------------|
+| public abstract String getDescription | Returns a string description of space. |                              |                                      |                        | 0             |
+| public abstract void setDoor          | Sets a door object in space.           |                              |                                      | Door                   | 0             |
